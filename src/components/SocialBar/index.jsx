@@ -9,19 +9,25 @@ export const SocialBar = () => {
                 animate={{scale:[0, 1, 1.5, 1]}}
                 transition={{type:'spring', duration:1, delay:1}}
             >
-                <AiFillGithub fill="#fff"/>
+                <a href="https://github.com/jsonfm" target="_blank" rel="noopener noreferrer">
+                    <AiFillGithub fill="#fff"/>
+                </a>
             </m.div>
             <m.div
                 animate={{scale:[0, 1, 1.5, 1]}}
                 transition={{type:'spring', duration:1, delay:1.2}}
             >
-                <AiFillLinkedin />
+                <a href="https://www.linkedin.com/in/jason-francisco-macas-mora-47b938141/" target="_blank" rel="noopener noreferrer">
+                    <AiFillLinkedin />
+                </a>
             </m.div>
             <m.div
                 animate={{scale:[0, 1, 1.5, 1]}}
                 transition={{type:'spring', duration:1, delay:1.5}}
             >
-                <AiFillTwitterSquare />
+                <a href="https://twitter.com/j5on_" target="_blank" rel="noopener noreferrer">
+                    <AiFillTwitterSquare />
+                </a>
             </m.div>
             <m.span 
                 className="w-[2px] bg-[#fff]" 
