@@ -1,4 +1,5 @@
 import { m } from "framer-motion";
+import { AiOutlineArrowRight } from "react-icons/ai";
 
 export const About = () => {
     return (
@@ -15,7 +16,14 @@ export const About = () => {
             <h4 className="text-xl font-semibold text-center uppercase mb-12 md:mb-20">ABOUT ME</h4>
             <div className="max-w-[600px] mx-auto text-center">
                 <p>My interesting are close to bioinformatics and web.</p>
-            </div>
+                <div className="w-4 h-4 bg-white rounded-full"></div>
+                <a className="flex items-center gap-3">
+                    <p className="font-light">View my CV</p>
+                    <div className="w-10 h-10  btn btn-light rounded-full">
+                        <AiOutlineArrowRight />
+                    </div>
+                </a>
+            </div>  
             </m.div>
         </section>  
     )

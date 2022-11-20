@@ -42,7 +42,7 @@ export const AnimatedLetters = ({ text }) => {
             {letters.map(letter =>(
                 <m.div
                     variants={letterAnimation}
-                    className="text-3xl"
+                    className="text-3xl font-[300]"
                 >
                     {letter}
                 </m.div>

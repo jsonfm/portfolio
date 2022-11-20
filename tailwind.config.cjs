@@ -5,7 +5,11 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      animation: {
+        'ping-slow': 'ping 4s linear infinite',
+      }
+    },
     colors: {
       'white': '#fff',
       'black': '#010101',

@@ -4,6 +4,20 @@ export const projects = [
         "name": 'Recipes PWA',
         "description": "A PWA with ReactJS for consulting food recipes.",
         "image": "https://github.com/jsonfm/recipes-pwa/raw/master/docs/images/recipesapp.png",
+        "repository": "https://github.com/jsonfm/recipes-pwa",
+        "demo": "https://jsonfm.github.io/recipes-pwa/"
+    },
+    {
+        "name": "Devsearcher",
+        "description": "An application that consumens Github API for getting users information, like stats, repos, and contact data.",
+        "image": "https://github.com/jsonfm/github-card-info/blob/master/docs/images/devsearcher.png?raw=true",
+        "repository": "https://github.com/jsonfm/github-card-info",
+        "demo": "https://jsonfm.github.io/github-card-info/"
+    },
+    {
+        "name": "Filmy",
+        "description": "A movies app made with Javascript.",
+        "image": "https://github.com/jsonfm/filmy/raw/master/images/filmy.jpeg",
     },
     {
         "name": "Petgram",
