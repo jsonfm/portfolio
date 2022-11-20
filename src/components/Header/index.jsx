@@ -4,7 +4,7 @@ export const Header = () => {
     return (
         <header className="h-16 grid place-items-center">
             <nav className="container h-full flex items-center">
-                Header
+                {/* Header */}
             </nav>
             <SocialBar />
         </header>

@@ -4,7 +4,7 @@ import { m } from "framer-motion";
 
 export const SocialBar = () => {
     return (
-        <div className="flex flex-col items-center gap-4 text-3xl fixed bottom-12 right-4 z-[3]">
+        <div className="flex flex-col items-center gap-4 text-3xl fixed bottom-12 right-4 md:right-10 z-[3]">
             <m.div
                 animate={{scale:[0, 1, 1.5, 1]}}
                 transition={{type:'spring', duration:1, delay:1}}
