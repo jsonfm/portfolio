@@ -21,7 +21,7 @@ const letterAnimation = {
     animate: {
       y: 0,
       transition: {
-        duration: .5,
+        duration: .4,
         type: "tween",
         ease: "easeInOut",
       },
