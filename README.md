@@ -6,6 +6,11 @@ Made with ReactJS.
 npm run dev
 ```
 
+### ⚒️ Build
+```
+npm run build
+```
+
 ### 📦 Deployment
 ```
 npm run deploy
