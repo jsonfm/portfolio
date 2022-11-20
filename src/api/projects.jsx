@@ -2,7 +2,8 @@ export const projects = [
 
     {
         "name": 'Recipes PWA',
-        "image": "https://github.com/jsonfm/recipes-pwa/raw/master/docs/images/recipesapp.png"
+        "description": "A PWA with ReactJS for consulting food recipes.",
+        "image": "https://github.com/jsonfm/recipes-pwa/raw/master/docs/images/recipesapp.png",
     },
     {
         "name": "Petgram",
