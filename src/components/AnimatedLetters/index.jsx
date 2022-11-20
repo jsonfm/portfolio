@@ -2,43 +2,51 @@ import { m } from "framer-motion";
 
 
 const containerAnimation = {
+    initial: {
+      x: 0,
+    },
     animate: {
+      y: 0,
       transition: {
-        delayChildren: 0.4,
         staggerChildren: 0.1,
       },
     },
 };
   
+
 const letterAnimation = {
-    initial: { y: 400 },
+    initial: {
+      y: -400,
+    },
     animate: {
       y: 0,
       transition: {
-        ease: [0.6, 0.01, -0.05, 0.95],
-        duration: 1,
+        duration: .5,
+        type: "tween",
+        ease: "easeInOut",
       },
     },
 };
 
 
-export const AnimatedLetters = ({ text, animation }) => {
+export const AnimatedLetters = ({ text }) => {
     const letters = text ? [...text] : [];
+
     return(
-        <m.span
+        <m.div
             variants={containerAnimation}
             initial='initial'
             animate='animate'
+            className="flex gap-1 leading-[7rem] py-6 overflow-hidden"
         >
             {letters.map(letter =>(
-                <m.span
+                <m.div
                     variants={letterAnimation}
-                    initial='initial'
-                    animate='animate'
+                    className="text-3xl"
                 >
                     {letter}
-                </m.span>
+                </m.div>
             ))}
-        </m.span>
+        </m.div>
     )
 }

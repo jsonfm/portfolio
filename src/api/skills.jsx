@@ -5,7 +5,7 @@ export const skills = [
     },
     {
         name: "Python",
-        image: "https://assets.stickpng.com/images/5848152fcef1014c0b5e4967.png",
+        image: "https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/community/logos/python-logo-only.png",
     },
     {
         name: "Javascript",

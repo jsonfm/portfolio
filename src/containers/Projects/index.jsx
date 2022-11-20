@@ -10,9 +10,6 @@ export const Projects = () => {
                     <ProjectCard {...project} />
                 ))}
             </div>
-            <button className="mx-auto mt-12">
-                load more...
-            </button>
         </section>
     )
 }

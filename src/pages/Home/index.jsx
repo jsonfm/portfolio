@@ -11,7 +11,7 @@ export const Home = () => {
     const { scrollYProgress } = useScroll();
     return (
         <>
-        {/* <m.div className="fixed top-0 left-0 w-6 bg-secondary h-screen" style={{ scaleY: scrollYProgress }} />   */}
+        <m.div className="fixed top-0 left-0 w-6 bg-warning h-screen" style={{ scaleY: scrollYProgress }} />  
         <Banner />
         <Skills />
         <Experience />

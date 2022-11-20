@@ -11,7 +11,7 @@
 
 @layer base {
     html, body {
-        @apply bg-secondary text-[#fff] px-4;
+        @apply bg-black text-[#fff] px-4;
     }
 }
 
