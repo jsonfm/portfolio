@@ -17,6 +17,7 @@ export const ProjectCard = ({ name, description, image, repository, demo}) => {
                         {demo && <a href={demo} target="_blank" rel="noopener" className="btn btn-light gap-2"><AiFillEye size={20}/> Demo</a>}
                     </div>
                 </div>
+                <p className="bg-secondary/80 md:text-xl w-full text-white absolute bottom-0 z-30 px-4">{name}</p>
             </div>
         </div>
     )

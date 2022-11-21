@@ -26,7 +26,7 @@
         @apply cursor-pointer px-2 py-1 flex items-center justify-center;
     }
     .btn:hover {
-        letter-spacing: .8rem;
+        letter-spacing: .2rem;
     }
 
     .btn-light {
