@@ -1,3 +1,8 @@
+<img
+    src="./docs/images/portfolio.png"
+/>
+
+
 ### Personal Portfolio
 Made with ReactJS.
 
