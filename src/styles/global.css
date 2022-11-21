@@ -26,9 +26,9 @@
         @apply cursor-pointer px-2 py-1 flex items-center justify-center;
     }
     .btn:hover {
-        letter-spacing: 1rem;
+        letter-spacing: .8rem;
     }
-    
+
     .btn-light {
         @apply bg-white text-black hover:bg-black hover:text-white;
     }

@@ -18,6 +18,8 @@ export const projects = [
         "name": "Filmy",
         "description": "A movies app made with Javascript.",
         "image": "https://github.com/jsonfm/filmy/raw/master/images/filmy.jpeg",
+        "repository": "https://github.com/jsonfm/filmy",
+        "demo": "https://jsonfm.github.io/filmy/"
     },
     {
         "name": "Petgram",

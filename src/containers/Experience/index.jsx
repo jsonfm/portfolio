@@ -7,7 +7,7 @@ export const Experience = () => {
                 <h4 className="text-xl font-semibold text-center uppercase mb-12 md:mb-24">Experience</h4>
                 <div className="max-w-[700px] mx-auto grid gap-5 md:grid-cols-2 px-4">
                     {experience.map((item, index) => {
-                        return <div className={`${index % 2 != 0 ? 'md:mt-24' : 'md:mb-24'} text-justify`}>{item.description}</div>
+                        return <div className={`${index % 2 != 0 ? 'md:mt-24' : 'md:mb-24'} text-justify font-light`}>{item.description}</div>
                     })}
                 </div>
             </div>

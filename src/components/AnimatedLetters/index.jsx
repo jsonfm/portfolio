@@ -2,12 +2,10 @@ import { m } from "framer-motion";
 
 
 const containerAnimation = {
-    initial: {
-      x: 0,
-    },
     animate: {
       y: 0,
       transition: {
+        delayChildren: 0.4,
         staggerChildren: 0.1,
       },
     },
@@ -16,33 +14,38 @@ const containerAnimation = {
 
 const letterAnimation = {
     initial: {
-      y: -400,
+      y: 400,
     },
     animate: {
       y: 0,
       transition: {
-        duration: .4,
-        type: "tween",
-        ease: "easeInOut",
+        duration: 1,
+        ease: [0.6, 0.01, -0.05, 0.95],
       },
     },
 };
 
 
-export const AnimatedLetters = ({ text }) => {
+export const AnimatedLetters = ({ 
+    text, 
+    containerClass="flex gap-1 leading-[7rem] py-2 overflow-hidden",
+    letterClass="text-3xl font-[300]"
+  }) => {
     const letters = text ? [...text] : [];
 
     return(
         <m.div
             variants={containerAnimation}
-            initial='initial'
-            animate='animate'
-            className="flex gap-1 leading-[7rem] py-6 overflow-hidden"
+            initial="initial"
+            animate="animate"
+            className={containerClass}
         >
             {letters.map(letter =>(
                 <m.div
                     variants={letterAnimation}
-                    className="text-3xl font-[300]"
+                    initial="initial"
+                    animate="animate"
+                    className={letterClass}
                 >
                     {letter}
                 </m.div>
