@@ -30,6 +30,6 @@
     }
 
     .btn-light {
-        @apply bg-white text-black hover:bg-black hover:text-white;
+        @apply bg-white text-dark hover:bg-dark hover:text-white;
     }
 }
