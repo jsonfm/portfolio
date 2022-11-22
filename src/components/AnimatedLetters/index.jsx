@@ -1,15 +1,6 @@
 import { m } from "framer-motion";
 
 
-const containerAnimation = {
-    animate: {
-      y: 0,
-      transition: {
-        delayChildren: 0.4,
-        staggerChildren: 0.1,
-      },
-    },
-};
   
 
 const letterAnimation = {
@@ -25,9 +16,19 @@ const letterAnimation = {
     },
 };
 
+const containerAnimation = {
+  animate: {
+    y: 0,
+    transition: {
+      delayChildren: 0.4,
+      staggerChildren: 0.1,
+    },
+  },
+};
+
 
 export const AnimatedLetters = ({ 
-    text, 
+    text,
     containerClass="flex gap-1 leading-[7rem] py-2 overflow-hidden",
     letterClass="text-3xl font-[300]"
   }) => {

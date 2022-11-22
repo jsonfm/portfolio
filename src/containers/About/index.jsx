@@ -1,6 +1,8 @@
 import { m } from "framer-motion";
 import { AiOutlineArrowRight } from "react-icons/ai";
+import { AnimatedLetters } from "@/components/AnimatedLetters";
 import CV from "@/assets/CV.pdf";
+
 
 export const About = () => {
     return (
@@ -16,7 +18,7 @@ export const About = () => {
             >
             <h4 className=" text-xl font-semibold text-center uppercase mb-12 md:mb-20">ABOUT ME</h4>
             <div className="max-w-[600px] mx-auto text-center">
-                <p className="font-light text-xl">My interesting are close to bioinformatics and web.</p>
+                <p className="font-light">My interesting are close to <b className="text-2xl">bioinformatics</b> and <b className="text-2xl">web</b>.</p>
                 <div className="absolute right-10 bottom-0 flex flex-col gap-6">
                     <div className="w-3 h-3 bg-white rounded-full"></div>
                     <div className="w-3 h-3 bg-white rounded-full"></div>
