@@ -1,18 +1,22 @@
 export const experience = [
     {
-        description: ' I worked training and deploying machine/deep learning models at UCuenca in the medical area using Tensorflow.',
-        time: '2020 - 2021'
+        description: 'Data scientist at Cuenca University for medical diagnostics.',
+        time: '2022 - Present.'
     },
     {
-        description: 'I worked as a Researcher at UTPL using openCV for image processing.',
-        time: '2020 - 2021'
+        description: 'Fullstack developer at Rimoto Labs company.',
+        time: '2022 - Present.'
     },
     {
-        description: ' I worked developing IoT Devices in the UTPL Remote Lab using SocketIO.',
-        time: '2020 - 2021'
+        description: 'Researcher at UTPL, proccesing medical images.',
+        time: '2021 - 2022.'
     },
     {
-        description: 'I develop some streaming video servers based on the MJPEG protocol in Python. I created open source software for that.',
-        time: '2020 - 2021'
+        description: 'Software and hardware developer for Remote Laboratories at UTPL.',
+        time: '2020 - 2021.'
     },
+    {
+        description: 'Web freelancer and open source software developer.',
+        time: '2019 - Present.'
+    }
 ];

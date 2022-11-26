@@ -89,5 +89,11 @@ export const projects = [
             }
         ]
     },
+    {
+        "name": "Express WebChat",
+        "image": 'https://github.com/jsonfm/express-webchat/raw/master/docs/images/webchatapp.png',
+        "description": "💬 A realtime chat app made with Express and SocketIO.",
+        "repository": "https://github.com/jsonfm/express-webchat"
+    }
 
 ];

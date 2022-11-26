@@ -15,8 +15,8 @@ export const Home = () => {
         <SEO />
         <Banner />
         <About />
-        <Skills />
         <Experience />
+        <Skills />
         <Projects />
         </>
     )
