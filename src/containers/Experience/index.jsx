@@ -20,7 +20,10 @@ export const Experience = () => {
     // } 
 
     return (
-        <section className="min-h-screen py-24 bg-white text-black">
+        <section 
+            className="min-h-screen py-24 bg-white text-black"
+            id="experience-section"
+        >
             <div className="container">
                 <h4 className="text-xl font-semibold text-center uppercase mb-12 md:mb-24">Experience</h4>
                 <div className="max-w-[700px] mx-auto grid gap-5 md:grid-cols-2 px-4">

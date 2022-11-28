@@ -3,7 +3,10 @@ import { AnimatedLetters } from "@/components/AnimatedLetters";
 
 export const Banner = () => {
     return (
-        <section className="container relative min-h-screen flex items-center overflow-hidden">
+        <section 
+            className="container relative min-h-screen flex items-center overflow-hidden"
+            id="home-section"
+        >
             <div className="text-center absolute top-[30%] -translate-y-1/2 left-1/2 md:left-[60%] -translate-x-1/2 md:translate-x-0">
                 <AnimatedLetters text={"Hi, I'm Jason"} />
                 <h5 className="text-xl font-[300]">A fullstack developer</h5>

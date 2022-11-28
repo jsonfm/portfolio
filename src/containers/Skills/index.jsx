@@ -10,6 +10,7 @@ export const Skills = () => {
             initial={{ y: -20, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 1, delay: 1 }}
+            id="skills-section"
         >
             <div className="container">
                 <h4 className="text-xl font-semibold text-center uppercase mb-24">Skills</h4>

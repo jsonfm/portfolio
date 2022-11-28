@@ -8,6 +8,7 @@ export const About = () => {
     return (
         <section 
             className="relative min-h-screen bg-warning/90 py-24"
+            id="about-section"
         >
             <m.div
                 className="container h-[90vh] relative"
