@@ -1,5 +1,42 @@
 export const projects = [
-
+    {
+        "name": "Yogurt Jordy",
+        "image": 'https://i0.wp.com/sinculpasite.files.wordpress.com/2022/12/yogurtss.jpeg?ssl=1',
+        "description": "A fastfood restaurant website with an interactive menu.",
+        "demo": "https://yogurtdjordi.com/"
+    },  
+    {
+        "name": "Filmy",
+        "description": "A movies app made with Javascript.",
+        "image": "https://github.com/jsonfm/filmy/raw/master/images/filmy.jpeg",
+        "repository": "https://github.com/jsonfm/filmy",
+        "demo": "https://jsonfm.github.io/filmy/"
+    }, 
+    {
+        "name": "Sinculpa Restaurant Menu",
+        "description": "I made this project for a restaurant in my city, I used GatsbyJS and Tailwind CSS, and I deployed it in github pages.",
+        "image": "https://sinculpasite.files.wordpress.com/2022/09/sinculp.jpeg",
+        "repository": "https://github.com/jsonfm/sinculpa",
+        "demo": "https://jsonfm.github.io/sinculpa/",
+        "tags": [
+            {
+                "name": "Gatsby.js",
+                "color": "#4A10A0 "
+            }
+        ]
+    },
+    {
+        "name": "CAMIE",
+        "description": "I have worked in various universities as a researcher in the area of bioinformatics. CAMIE, is a project whose purpose is to find diagnostic methods for cervical cancer. I was in charge of developing their web platform.",
+        "image": "https://camie-media.sfo3.digitaloceanspaces.com/media/camiess.png",
+        "demo": "https://www.camieproject.com/",
+        "tags": [
+            {
+                "name": "Django",
+                "color": "#0B8527 "
+            }
+        ]
+    },
     {
         "name": 'Recipes PWA',
         "description": "A PWA with ReactJS for consulting food recipes.",
@@ -13,13 +50,6 @@ export const projects = [
         "image": "https://github.com/jsonfm/github-card-info/blob/master/docs/images/devsearcher.png?raw=true",
         "repository": "https://github.com/jsonfm/github-card-info",
         "demo": "https://jsonfm.github.io/github-card-info/"
-    },
-    {
-        "name": "Filmy",
-        "description": "A movies app made with Javascript.",
-        "image": "https://github.com/jsonfm/filmy/raw/master/images/filmy.jpeg",
-        "repository": "https://github.com/jsonfm/filmy",
-        "demo": "https://jsonfm.github.io/filmy/"
     },
     {
         "name": "Petgram",
@@ -39,19 +69,6 @@ export const projects = [
         ]
     },
     {
-        "name": "Sinculpa Restaurant Menu",
-        "description": "I made this project for a restaurant in my city, I used GatsbyJS and Tailwind CSS, and I deployed it in github pages.",
-        "image": "https://sinculpasite.files.wordpress.com/2022/09/sinculp.jpeg",
-        "repository": "https://github.com/jsonfm/sinculpa",
-        "demo": "https://jsonfm.github.io/sinculpa/",
-        "tags": [
-            {
-                "name": "Gatsby.js",
-                "color": "#4A10A0 "
-            }
-        ]
-    },
-    {
         "name": "Pokedex",
         "description": "A Pokedex app powered with Vite, React.js, TailwindCSS and Redux.",
         "image": "https://github.com/jsonfm/pokedex/blob/master/docs/images/pokedex.jpeg?raw=true",
@@ -62,18 +79,6 @@ export const projects = [
                 "name": "React.js",
                 "color": "#0DACB7 "
             },
-        ]
-    },
-    {
-        "name": "CAMIE",
-        "description": "I have worked in various universities as a researcher in the area of bioinformatics. CAMIE, is a project whose purpose is to find diagnostic methods for cervical cancer. I was in charge of developing their web platform.",
-        "image": "https://camie-media.sfo3.digitaloceanspaces.com/media/camiess.png",
-        "demo": "https://www.camieproject.com/",
-        "tags": [
-            {
-                "name": "Django",
-                "color": "#0B8527 "
-            }
         ]
     },
     {
@@ -94,6 +99,5 @@ export const projects = [
         "image": 'https://github.com/jsonfm/express-webchat/raw/master/docs/images/webchatapp.png',
         "description": "💬 A realtime chat app made with Express and SocketIO.",
         "repository": "https://github.com/jsonfm/express-webchat"
-    }
-
+    },
 ];
