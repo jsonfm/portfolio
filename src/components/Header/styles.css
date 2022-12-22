@@ -1,0 +1,17 @@
+.nav {
+    position: absolute;
+    z-index: 50;
+    transition: .5 ease-in-out;
+}
+
+.nav-active {
+    display: flex;
+    left: 0;
+    top: 0;
+}
+
+.nav-disable {
+    top: 0% !important;
+    left: -100% !important;
+    background: transparent;
+}

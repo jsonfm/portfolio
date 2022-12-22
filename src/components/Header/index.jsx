@@ -3,6 +3,8 @@ import { SocialBar } from "@/components/SocialBar";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { AiOutlineClose } from "react-icons/ai";
 import { HashLink } from "react-router-hash-link";
+import { m } from "framer-motion";
+import "./styles.css";
 
 
 export const Header = () => {
@@ -16,18 +18,20 @@ export const Header = () => {
             <nav className="container h-full flex justify-between items-center px-4">
                 <HashLink to="#home-section" className="uppercase text-xl"></HashLink>
                 {!showBar
-                ? <GiHamburgerMenu size={25} className="cursor-pointer z-50" onClick={toggle}/>
+                ? <GiHamburgerMenu size={25} className="cursor-pointer z-[100]" onClick={toggle}/>
                 : <AiOutlineClose size={25} className="cursor-pointer z-[100]"  onClick={toggle}/>
                 }    
-                <div className={`${showBar ? 'visible' : 'hidden'} flex flex-col items-center fixed top-0 left-0 min-h-screen w-full bg-dark z-50`} onClick={toggle}>
+                <div className={`${showBar ? 'nav-active' : 'nav-disable'} nav flex-col items-center fixed top-0 left-0 min-h-screen w-full bg-dark z-50`} onClick={toggle}>
                     <div className="mt-32 flex flex-col items-center gap-8 xl:gap-12">
-                        <HashLink className="uppercase font-light xl:text-2xl" to="#home-section" onClick={closeBar} smooth>
-                            Home
+                        <HashLink className="uppercase font-light xl:text-2xl duration-200" to="#home-section" onClick={closeBar} smooth>
+                           <m.div>
+                                Home
+                           </m.div>
                         </HashLink>
-                        <HashLink className="uppercase font-light xl:text-2xl" to="#about-section" onClick={closeBar} smooth>
+                        <HashLink className="uppercase font-light xl:text-2xl duration-200" to="#about-section" onClick={closeBar} smooth>
                             About
                         </HashLink>
-                        <HashLink className="uppercase font-light xl:text-2xl" to="#experience-section" onClick={closeBar} smooth>
+                        <HashLink className="uppercase font-light xl:text-2xl duration-200" to="#experience-section" onClick={closeBar} smooth>
                             Experience
                         </HashLink>
                         <HashLink className="uppercase font-light xl:text-2xl" to="#skills-section" onClick={closeBar} smooth>
