@@ -1,5 +1,23 @@
 export const projects = [
     {
+        "name": "RimotoLabs",
+        "description": "An online platform for remote experimentation, made with Next.js and other technologies.",
+        "image": "https://sinculpasite.files.wordpress.com/2022/12/rimotoss.png",
+        "demo": "https://www.rimotolabs.com/"
+    },
+    {
+        "name": "Impact Django",
+        "description": "A social network app made with Django. It implements the mainly functionalities of a common social network: login, signup, posts creation, post edition, comments, post shares, likes, stories, etc. It includes a little chat made with channels and websockets.",
+        "image": "https://raw.githubusercontent.com/jsonfm/impact-django/master/docs/images/impactmobile.png",
+        "repository": "https://github.com/jsonfm/impact-django"
+    },
+    {
+        "name": "FastAPI React Ecommerce",
+        "description": "This project is an ecommerce made with Python, React and MongoDB. It's a complete online store for technology. It has different views for interact with the products and making transactions. It provides an OAuth2 system for authentication, and offers ways to managing the information.",
+        "image": "https://www.datocms-assets.com/205/1640011361-react-ecommerce-tutorial.png?h=500",
+        "repository": "https://github.com/jsonfm/fastapi-react-ecommerce"
+    },
+    {
         "name": "Yogurt Jordy",
         "image": 'https://i0.wp.com/sinculpasite.files.wordpress.com/2022/12/yogurtss.jpeg?ssl=1',
         "description": "A fastfood restaurant website with an interactive menu.",
@@ -38,13 +56,6 @@ export const projects = [
         ]
     },
     {
-        "name": 'Recipes PWA',
-        "description": "A PWA with ReactJS for consulting food recipes.",
-        "image": "https://github.com/jsonfm/recipes-pwa/raw/master/docs/images/recipesapp.png",
-        "repository": "https://github.com/jsonfm/recipes-pwa",
-        "demo": "https://jsonfm.github.io/recipes-pwa/"
-    },
-    {
         "name": "Devsearcher",
         "description": "An application that consumens Github API for getting users information, like stats, repos, and contact data.",
         "image": "https://github.com/jsonfm/github-card-info/blob/master/docs/images/devsearcher.png?raw=true",
@@ -80,6 +91,13 @@ export const projects = [
                 "color": "#0DACB7 "
             },
         ]
+    },
+    {
+        "name": "Food.",
+        "description": "🍖 😋 A restaurant website made with HTML, CSS and JS.",
+        "image": "https://github.com/jsonfm/food/blob/master/docs/images/food.png?raw=true",
+        "repository": "https://github.com/jsonfm/food",
+        "demo": "https://jsonfm.github.io/food/"
     },
     {
         "name": "REMIO",
