@@ -1,9 +1,10 @@
 export const projects = [
     {
-        "name": "RimotoLabs",
-        "description": "An online platform for remote experimentation, made with Next.js and other technologies.",
-        "image": "https://sinculpasite.files.wordpress.com/2022/12/rimotoss.png",
-        "demo": "https://www.rimotolabs.com/"
+        "name": "Shareme Social Network",
+        "description": "A social media app made with React.js and Sanity, design inspired by pinterest. Allows users to create and like posts. It also allows authentication through Google OAuth2. Frontend uses tailwind for styles. The site is full responsive.",
+        "image": "https://raw.githubusercontent.com/jsonfm/shareme-social-network/master/docs/images/ss1.jpeg",
+        "demo": "https://sharemenet.netlify.app/",
+        "repository": "https://github.com/jsonfm/shareme-social-network"
     },
     {
         "name": "Impact Django",
