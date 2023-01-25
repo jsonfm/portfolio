@@ -1,5 +1,45 @@
 export const projects = [
     {
+        "name": "DALL-E Express React",
+        "description": "A MERN stack application that uses the OpenAI API to generate images. You can enter a prompt, view the results and share them with the community.",
+        "image": "https://github.com/jsonfm/dalle-react-express/raw/master/docs/images/ss.jpeg",
+        "demo": "https://jsonfm.github.io/dalle-react-express/",
+        "repository": "https://github.com/jsonfm/dalle-react-express"
+    },
+    {
+        "name": "Filmy",
+        "description": "A movies app made with Javascript.",
+        "image": "https://github.com/jsonfm/filmy/raw/master/images/filmy.jpeg",
+        "repository": "https://github.com/jsonfm/filmy",
+        "demo": "https://jsonfm.github.io/filmy/"
+    }, 
+    {
+        "name": "Yogurt Jordy",
+        "image": 'https://i0.wp.com/sinculpasite.files.wordpress.com/2022/12/yogurtss.jpeg?ssl=1',
+        "description": "A fastfood restaurant website with an interactive menu.",
+        "demo": "https://yogurtdjordi.com/"
+    },  
+    {
+        "name": "Sinculpa Restaurant Menu",
+        "description": "I made this project for a restaurant in my city, I used GatsbyJS and Tailwind CSS, and I deployed it in github pages.",
+        "image": "https://sinculpasite.files.wordpress.com/2022/09/sinculp.jpeg",
+        "repository": "https://github.com/jsonfm/sinculpa",
+        "demo": "https://jsonfm.github.io/sinculpa/",
+        "tags": [
+            {
+                "name": "Gatsby.js",
+                "color": "#4A10A0 "
+            }
+        ]
+    },
+    {
+        "name": "Food.",
+        "description": "🍖 😋 A restaurant website made with HTML, CSS and JS.",
+        "image": "https://github.com/jsonfm/food/blob/master/docs/images/food.png?raw=true",
+        "repository": "https://github.com/jsonfm/food",
+        "demo": "https://jsonfm.github.io/food/"
+    },
+    {
         "name": "Shareme Social Network",
         "description": "A social media app made with React.js and Sanity, design inspired by pinterest. Allows users to create and like posts. It also allows authentication through Google OAuth2. Frontend uses tailwind for styles. The site is full responsive.",
         "image": "https://raw.githubusercontent.com/jsonfm/shareme-social-network/master/docs/images/ss1.jpeg",
@@ -17,32 +57,6 @@ export const projects = [
         "description": "This project is an ecommerce made with Python, React and MongoDB. It's a complete online store for technology. It has different views for interact with the products and making transactions. It provides an OAuth2 system for authentication, and offers ways to managing the information.",
         "image": "https://www.datocms-assets.com/205/1640011361-react-ecommerce-tutorial.png?h=500",
         "repository": "https://github.com/jsonfm/fastapi-react-ecommerce"
-    },
-    {
-        "name": "Yogurt Jordy",
-        "image": 'https://i0.wp.com/sinculpasite.files.wordpress.com/2022/12/yogurtss.jpeg?ssl=1',
-        "description": "A fastfood restaurant website with an interactive menu.",
-        "demo": "https://yogurtdjordi.com/"
-    },  
-    {
-        "name": "Filmy",
-        "description": "A movies app made with Javascript.",
-        "image": "https://github.com/jsonfm/filmy/raw/master/images/filmy.jpeg",
-        "repository": "https://github.com/jsonfm/filmy",
-        "demo": "https://jsonfm.github.io/filmy/"
-    }, 
-    {
-        "name": "Sinculpa Restaurant Menu",
-        "description": "I made this project for a restaurant in my city, I used GatsbyJS and Tailwind CSS, and I deployed it in github pages.",
-        "image": "https://sinculpasite.files.wordpress.com/2022/09/sinculp.jpeg",
-        "repository": "https://github.com/jsonfm/sinculpa",
-        "demo": "https://jsonfm.github.io/sinculpa/",
-        "tags": [
-            {
-                "name": "Gatsby.js",
-                "color": "#4A10A0 "
-            }
-        ]
     },
     {
         "name": "CAMIE",
@@ -92,13 +106,6 @@ export const projects = [
                 "color": "#0DACB7 "
             },
         ]
-    },
-    {
-        "name": "Food.",
-        "description": "🍖 😋 A restaurant website made with HTML, CSS and JS.",
-        "image": "https://github.com/jsonfm/food/blob/master/docs/images/food.png?raw=true",
-        "repository": "https://github.com/jsonfm/food",
-        "demo": "https://jsonfm.github.io/food/"
     },
     {
         "name": "REMIO",
