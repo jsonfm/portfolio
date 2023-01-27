@@ -1,5 +1,12 @@
 export const projects = [
     {
+        "name": "Lyriks",
+        "description": "A music app made with React and Tailwind. It uses redux toolkit and Shazam API, to show artists and songs. It also implements, the clasic music player controls: next, previous, pause, play, etc.",
+        "image": "https://github.com/jsonfm/lyriks-music-app/blob/master/docs/images/ss.jpeg?raw=true",
+        "demo": "https://lyriksio.netlify.app",
+        "repository": "https://github.com/jsonfm/lyriks-music-app"
+    },
+    {
         "name": "DALL-E Express React",
         "description": "A MERN stack application that uses the OpenAI API to generate images. You can enter a prompt, view the results and share them with the community.",
         "image": "https://github.com/jsonfm/dalle-react-express/raw/master/docs/images/ss.jpeg",
